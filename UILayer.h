@@ -27,7 +27,7 @@ public:
 	int highLightedIndex;
 
 	virtual void DrawMenu();
-	virtual void StatusMove(int status) = 0;	//must override
+	virtual void StatusMove(int status) = 0;	//Need override
 	virtual void beforeOutPut(){};
 	virtual void endOutPut(){};
 

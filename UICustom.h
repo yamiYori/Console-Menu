@@ -8,10 +8,10 @@
 #include <cstdio>
 #include "UILayer.h"
 
-//Official example: mainMenu
 extern string defaultMenu;
 extern menuBase* activeUI;
 
+//example: Menu01 & Menu02
 class Menu01:public menuBase{
 
 public:
@@ -53,7 +53,7 @@ public:
 			Fun03();
 			break;
 		default:
-			std::cout<<"It shouldn't happen but there was an error."<<endl;
+			std::cout<<"Unknown error."<<endl;
 			break;
 		}
 	}
@@ -106,7 +106,7 @@ public:
 			Fun04();
 			break;
 		default:
-			std::cout<<"It shouldn't happen but there was an error."<<endl;
+			std::cout<<"Unknown error."<<endl;
 			break;
 		}
 	}
